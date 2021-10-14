@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="he">
+<head>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <script src="change.js"></script>
+    <title>Chaneg Items</title>
+</head>
+<body onload="getItems()">
+    <form>
+        <label for="fname">פריט ראשון:</label><br>
+        <input type="text" id="1" name="fname" value="Test"><br>
+        <label for="lname">פריט שני:</label><br>
+        <input type="text" id="2" name="lname" value="Doe"><br>
+        <label for="fname">פריט שלישי:</label><br>
+        <input type="text" id="3" name="fname" value="John"><br>
+        <label for="lname">פריט רביעי:</label><br>
+        <input type="text" id="4" name="lname" value="Doe"><br>
+        <label for="fname">פריט חמישי:</label><br>
+        <input type="text" id="5" name="fname" value="John"><br>
+        <label for="lname">פריט שישי:</label><br>
+        <input type="text" id="6" name="lname" value="Doe"><br>
+        <label for="fname">פריט שביעי:</label><br>
+        <input type="text" id="7" name="fname" value="John"><br>
+        <label for="lname">פריט שמיני:</label><br>
+        <input type="text" id="8" name="lname" value="Doe"><br>
+      </form> 
+      <table>
+          <tr><button onclick="changePage()">חזור לגלגל</button></tr>
+          <tr><button onclick="replaceItems()">החלף פרטים</button></tr>
+      </table>
+</body>
+</html>
